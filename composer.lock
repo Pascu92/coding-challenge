@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "0bddf222160a7c4430dcb1486aacbee4",
+    "content-hash": "d48852515f2627a8a2e28fa2c693e523",
     "packages": [
         {
             "name": "psr/cache",
@@ -386,16 +386,16 @@
         },
         {
             "name": "symfony/config",
-            "version": "v8.0.3",
+            "version": "v8.0.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/config.git",
-                "reference": "58063686fd7b8e676f14b5a4808cb85265c5216e"
+                "reference": "8f45af92f08f82902827a8b6f403aaf49d893539"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/config/zipball/58063686fd7b8e676f14b5a4808cb85265c5216e",
-                "reference": "58063686fd7b8e676f14b5a4808cb85265c5216e",
+                "url": "https://api.github.com/repos/symfony/config/zipball/8f45af92f08f82902827a8b6f403aaf49d893539",
+                "reference": "8f45af92f08f82902827a8b6f403aaf49d893539",
                 "shasum": ""
             },
             "require": {
@@ -440,7 +440,7 @@
             "description": "Helps you find, load, combine, autofill and validate configuration values of any kind",
             "homepage": "https://symfony.com",
             "support": {
-                "source": "https://github.com/symfony/config/tree/v8.0.3"
+                "source": "https://github.com/symfony/config/tree/v8.0.4"
             },
             "funding": [
                 {
@@ -460,7 +460,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2025-12-23T14:52:06+00:00"
+            "time": "2026-01-13T13:06:50+00:00"
         },
         {
             "name": "symfony/console",
@@ -554,16 +554,16 @@
         },
         {
             "name": "symfony/dependency-injection",
-            "version": "v8.0.3",
+            "version": "v8.0.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/dependency-injection.git",
-                "reference": "8db0d4c1dd4c533a29210c68074999ba45ad6d3e"
+                "reference": "59c3cf87a7ed9beb561cf7433a6635b000a0ff4d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/dependency-injection/zipball/8db0d4c1dd4c533a29210c68074999ba45ad6d3e",
-                "reference": "8db0d4c1dd4c533a29210c68074999ba45ad6d3e",
+                "url": "https://api.github.com/repos/symfony/dependency-injection/zipball/59c3cf87a7ed9beb561cf7433a6635b000a0ff4d",
+                "reference": "59c3cf87a7ed9beb561cf7433a6635b000a0ff4d",
                 "shasum": ""
             },
             "require": {
@@ -611,7 +611,7 @@
             "description": "Allows you to standardize and centralize the way objects are constructed in your application",
             "homepage": "https://symfony.com",
             "support": {
-                "source": "https://github.com/symfony/dependency-injection/tree/v8.0.3"
+                "source": "https://github.com/symfony/dependency-injection/tree/v8.0.4"
             },
             "funding": [
                 {
@@ -631,7 +631,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2025-12-23T14:52:06+00:00"
+            "time": "2026-01-23T12:59:31+00:00"
         },
         {
             "name": "symfony/deprecation-contracts",
@@ -1229,16 +1229,16 @@
         },
         {
             "name": "symfony/framework-bundle",
-            "version": "v8.0.3",
+            "version": "v8.0.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/framework-bundle.git",
-                "reference": "738a92519fbc3ac37192b28052574bf2d1e8f63a"
+                "reference": "121c3b2baa96e74754f2db550007aa6bcdf27c7e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/framework-bundle/zipball/738a92519fbc3ac37192b28052574bf2d1e8f63a",
-                "reference": "738a92519fbc3ac37192b28052574bf2d1e8f63a",
+                "url": "https://api.github.com/repos/symfony/framework-bundle/zipball/121c3b2baa96e74754f2db550007aa6bcdf27c7e",
+                "reference": "121c3b2baa96e74754f2db550007aa6bcdf27c7e",
                 "shasum": ""
             },
             "require": {
@@ -1246,8 +1246,8 @@
                 "ext-xml": "*",
                 "php": ">=8.4",
                 "symfony/cache": "^7.4|^8.0",
-                "symfony/config": "^7.4.3|^8.0.3",
-                "symfony/dependency-injection": "^7.4|^8.0",
+                "symfony/config": "^7.4.4|^8.0.4",
+                "symfony/dependency-injection": "^7.4.4|^8.0.4",
                 "symfony/deprecation-contracts": "^2.5|^3",
                 "symfony/error-handler": "^7.4|^8.0",
                 "symfony/event-dispatcher": "^7.4|^8.0",
@@ -1345,7 +1345,7 @@
             "description": "Provides a tight integration between Symfony components and the Symfony full-stack framework",
             "homepage": "https://symfony.com",
             "support": {
-                "source": "https://github.com/symfony/framework-bundle/tree/v8.0.3"
+                "source": "https://github.com/symfony/framework-bundle/tree/v8.0.4"
             },
             "funding": [
                 {
@@ -1365,7 +1365,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2025-12-23T14:52:06+00:00"
+            "time": "2026-01-12T12:37:40+00:00"
         },
         {
             "name": "symfony/http-foundation",
@@ -1449,16 +1449,16 @@
         },
         {
             "name": "symfony/http-kernel",
-            "version": "v8.0.3",
+            "version": "v8.0.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/http-kernel.git",
-                "reference": "e6dfb348eb1dd4df14c39e6dc7e283bab4199fd9"
+                "reference": "3e61425b663a995957217d03c444b9d27ca7d928"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/http-kernel/zipball/e6dfb348eb1dd4df14c39e6dc7e283bab4199fd9",
-                "reference": "e6dfb348eb1dd4df14c39e6dc7e283bab4199fd9",
+                "url": "https://api.github.com/repos/symfony/http-kernel/zipball/3e61425b663a995957217d03c444b9d27ca7d928",
+                "reference": "3e61425b663a995957217d03c444b9d27ca7d928",
                 "shasum": ""
             },
             "require": {
@@ -1529,7 +1529,7 @@
             "description": "Provides a structured process for converting a Request into a Response",
             "homepage": "https://symfony.com",
             "support": {
-                "source": "https://github.com/symfony/http-kernel/tree/v8.0.3"
+                "source": "https://github.com/symfony/http-kernel/tree/v8.0.4"
             },
             "funding": [
                 {
@@ -1549,7 +1549,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2025-12-31T09:29:34+00:00"
+            "time": "2026-01-25T08:21:00+00:00"
         },
         {
             "name": "symfony/polyfill-intl-grapheme",
