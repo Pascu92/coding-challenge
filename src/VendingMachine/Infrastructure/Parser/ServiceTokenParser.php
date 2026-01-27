@@ -55,7 +55,7 @@ final class ServiceTokenParser
         foreach ($pairs as $pair) {
             [$name, $count] = array_map('trim', explode(':', $pair, 2));
             $type = ProductType::from(strtoupper($name)); // enum cases: WATER/JUICE/SODA
-            $counts[$type] = (int) $count;
+            $counts[$type->value] = (int) $count;
         }
 
         return new Inventory($counts);

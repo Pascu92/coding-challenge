@@ -2,7 +2,7 @@
 
 namespace App\VendingMachine\Application\Command;
 
-final readonly class ProccessActionsCommand
+final readonly class ProcessActionsCommand
 {
     /**
      * @param list<string> $tokens

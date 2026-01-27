@@ -2,7 +2,7 @@
 
 namespace App\VendingMachine\Application\Handler;
 
-use App\VendingMachine\Application\Command\ProccessActionsCommand;
+use App\VendingMachine\Application\Command\ProcessActionsCommand;
 use App\VendingMachine\Domain\Model\Coin;
 use App\VendingMachine\Domain\Model\ProductType;
 use App\VendingMachine\Domain\Model\VendingMachine;
@@ -18,7 +18,7 @@ final class ProcessActionsHandler
     /**
      * @return list<string>
      */
-    public function handle(ProccessActionsCommand $command): array
+    public function handle(ProcessActionsCommand $command): array
     {
         $outputs = [];
 

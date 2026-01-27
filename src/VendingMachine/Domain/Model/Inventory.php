@@ -8,16 +8,19 @@ final class Inventory
     private array $counts;
 
     /**
-     * @param array<ProductType,int> $counts
+     * @param array<mixed,int> $counts
      */
-
     public function __construct(array $counts)
     {
         $normalized = [];
+
         foreach (ProductType::cases() as $type) {
-            $normalized[$type->value] = (int)($counts[$type->value] ?? 0);
-            if ($normalized[$type->value] < 0) {
-                throw new \InvalidArgumentException('Inventotory count cannot be negative');
+            $key = $type->value;
+            $value = $counts[$key] ?? 0;
+            $normalized[$key] = (int) $value;
+
+            if ($normalized[$key] < 0) {
+                throw new \InvalidArgumentException('Inventory count cannot be negative');
             }
         }
         $this->counts = $normalized;
@@ -26,9 +29,9 @@ final class Inventory
     public static function withDefaults(): self
     {
         return new self([
-            ProductType::WATER => 10,
-            ProductType::JUICE => 10,
-            ProductType::SODA => 10
+            'WATER' => 10,
+            'JUICE' => 10,
+            'SODA'  => 10,
         ]);
     }
 
