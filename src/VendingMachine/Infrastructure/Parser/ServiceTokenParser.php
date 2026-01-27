@@ -49,7 +49,7 @@ final class ServiceTokenParser
     private function parseInventory(string $raw): Inventory
     {
         // WATER:10,JUICE:10,SODA:10
-        $pairs = array_filter(array_map('trim', explode(',', $raw)));
+        $pairs = array_filter(array_map('trim', explode(';', $raw)));
         $counts = [];
 
         foreach ($pairs as $pair) {
@@ -64,7 +64,7 @@ final class ServiceTokenParser
     private function parseChangeBank(string $raw): ChangeBank
     {
         // 5:20,10:15,25:10
-        $pairs = array_filter(array_map('trim', explode(',', $raw)));
+        $pairs = array_filter(array_map('trim', explode(';', $raw)));
         $coins = [];
 
         foreach ($pairs as $pair) {

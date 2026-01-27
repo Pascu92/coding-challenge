@@ -3,6 +3,7 @@
 namespace App\VendingMachine\Domain\Service;
 
 use App\VendingMachine\Domain\Model\ChangeBank;
+use App\VendingMachine\Domain\Model\Coin;
 
 final class ChangeMaker
 {
