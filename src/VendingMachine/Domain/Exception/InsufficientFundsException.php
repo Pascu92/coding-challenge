@@ -2,7 +2,7 @@
 
 namespace App\VendingMachine\Domain\Exception;
 
-final class InsufficientFoundsException extends DomainException
+final class InsufficientFundsException extends DomainException
 {
     public function __construct(int $requiredCents, int $insertedCents)
     {
