@@ -1,0 +1,19 @@
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    working_dir: /app
+    volumes:
+      - ./:/app
+      - vendor:/app/vendor
+      - var:/app/var
+      - phpunit_cache:/app/.phpunit.cache
+    environment:
+      APP_ENV: test
+      APP_DEBUG: 0
+
+volumes:
+  vendor:
+  var:
+  phpunit_cache:
