@@ -9,7 +9,6 @@ use App\VendingMachine\Domain\Model\ProductType;
 final class ServiceTokenParser
 {
     /**
-     * Formato esperado:
      * SERVICE items=WATER:10,JUICE:10,SODA:10 change=5:20,10:15,25:10
      *
      * @return array{inventory: Inventory, changeBank: ChangeBank}
